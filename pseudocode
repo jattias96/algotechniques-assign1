@@ -1,0 +1,14 @@
+Count the number of comparisons made by each approach and save the results in a .csv file that can be
+open in an Excel file later. Format your .csv file as follows:
+
+<value of n>, < O(n) approach>,<O(m + log n approach >, < O(log n approach>
+<value of n>, < O(n) approach>,<O(m + log n approach >, < O(log n approach>
+<value of n>, < O(n) approach>,<O(m + log n approach >, < O(log n approach>
+<value of n>, < O(n) approach>,<O(m + log n approach >, < O(log n approach>
+<value of n>, < O(n) approach>,<O(m + log n approach >, < O(log n approach>
+
+All of the data (array values and search values) should be randomly generated using the method
+nextInt() from the java.util.Random class. The study will be conducted for each of the following cases
+separately: 1) arrays will contain small blocks of duplicated keys and 2) arrays will contain large blocks of
+duplicated keys. Consider not less than 10,000 runs of these algorithms (i.e., your .csv and Excel files
+should have, at least, that number of lines).
